@@ -57,7 +57,7 @@ public class StudentList {
 					for (int index = 0; index < students.length && !done; index++) {
 						if (students[index].equals(searchedStudentName)) {
 							System.out.println(Constants.FOUND);
-							done = true;
+							break;
 						}
 					}
 				} catch (Exception e) {
